@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dsouvage-homepage/static/css/main.e9c87c46.chunk.css",
+    "main.js": "/dsouvage-homepage/static/js/main.aaf6fedd.chunk.js",
+    "main.js.map": "/dsouvage-homepage/static/js/main.aaf6fedd.chunk.js.map",
+    "runtime-main.js": "/dsouvage-homepage/static/js/runtime-main.72b08826.js",
+    "runtime-main.js.map": "/dsouvage-homepage/static/js/runtime-main.72b08826.js.map",
+    "static/js/2.41327cee.chunk.js": "/dsouvage-homepage/static/js/2.41327cee.chunk.js",
+    "static/js/2.41327cee.chunk.js.map": "/dsouvage-homepage/static/js/2.41327cee.chunk.js.map",
+    "index.html": "/dsouvage-homepage/index.html",
+    "precache-manifest.5a04128492161ecb384a68b7f1288ca1.js": "/dsouvage-homepage/precache-manifest.5a04128492161ecb384a68b7f1288ca1.js",
+    "service-worker.js": "/dsouvage-homepage/service-worker.js",
+    "static/css/main.e9c87c46.chunk.css.map": "/dsouvage-homepage/static/css/main.e9c87c46.chunk.css.map",
+    "static/js/2.41327cee.chunk.js.LICENSE.txt": "/dsouvage-homepage/static/js/2.41327cee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72b08826.js",
+    "static/js/2.41327cee.chunk.js",
+    "static/css/main.e9c87c46.chunk.css",
+    "static/js/main.aaf6fedd.chunk.js"
+  ]
+}
