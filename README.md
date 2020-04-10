@@ -44,8 +44,7 @@ npm run test
 
 ## Deploying
 
-This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes
- all linting and testing.
+This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes all linting and testing.
 ```bash
 npm run lint
 ```
