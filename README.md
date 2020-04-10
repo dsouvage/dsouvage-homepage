@@ -31,6 +31,12 @@ Running on local:
 ```bash
 npm start
 ```
+
+Checking ESLint on local:
+```bash
+npm run lint
+```
+
 Running tests on local:
 ```bash
 npm run test
@@ -38,14 +44,15 @@ npm run test
 
 ## Deploying
 
+This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes
+ all linting and testing.
 ```bash
-npm run deploy
+npm run lint
 ```
-or
 ```bash
-yarn deploy
+npm run test
 ```
 
 ## Credit
-Based off: 
 [Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d)
+[Deploying React app to GitHub Pages via Travis CI](https://medium.com/@rossanodan/deploying-a-react-application-on-github-pages-via-travis-ci-ba0fc2c4c74)
