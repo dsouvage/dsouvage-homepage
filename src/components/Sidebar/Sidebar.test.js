@@ -16,5 +16,6 @@ export const renderWithRouter = (Component) => render(
 
 // eslint-disable-next-line no-undef
 it('renders without crashing', () => {
+  // eslint-disable-next-line no-unused-vars
   const test = () => renderWithRouter(<Sidebar />);
 });
