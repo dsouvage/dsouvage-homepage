@@ -8,9 +8,9 @@ This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan
 
 ## Information
 
-This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages) and [Enzyme](https://enzymejs.github.io/enzyme/).
+This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages), [TravisCI](https://travis-ci.org/)  and [Enzyme](https://enzymejs.github.io/enzyme/).
 
-Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, and deploying is handled through gh-pages.
+Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, deploying is handled through gh-pages, the code is continuously integrated through TravisCI.
 
 ## Installation
 Clone the repo to local 
