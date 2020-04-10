@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
-import { ProfileLink } from './styles';
+import { SectionTitle, Paragraph } from '../../styles';
 import { WorkItem, WorkTitle, JobTitle } from '../Work/styles';
 import { EducationItem, Institution, Degree } from '../Education/styles';
 
