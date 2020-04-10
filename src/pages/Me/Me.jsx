@@ -4,18 +4,19 @@ import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph } from '../../styles';
 import { WorkItem, WorkTitle, JobTitle } from '../Work/styles';
 import { EducationItem, Institution, Degree } from '../Education/styles';
-import data from '../../data/website-info.json';
+import websiteInfo from '../../data/website-info.json';
 
 const Me = ({ user }) => (
   <Layout user={user}>
     <div>
       <SectionTitle>Website Information</SectionTitle>
       <ul>
-        <Paragraph>{data.description}</Paragraph>
+        <Paragraph>{websiteInfo.description}</Paragraph>
         <Paragraph>
+          This is a test
           See
           {' '}
-          <a href={data.repoURL} rel="noopener noreferrer" target="_blank">{data.repoURL}</a>
+          <a href={websiteInfo.repoURL} rel="noopener noreferrer" target="_blank">{websiteInfo.repoURL}</a>
           {' '}
           for more information.
         </Paragraph>
