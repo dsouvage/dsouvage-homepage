@@ -9,19 +9,21 @@ import data from '../../data/website-info.json';
 const Me = ({ user }) => (
   <Layout user={user}>
     <div>
-      <SectionTitle>About Me</SectionTitle>
-      <Paragraph>{user.basics.summary}</Paragraph>
+      <SectionTitle>Website Information</SectionTitle>
+      <ul>
+        <Paragraph>{data.description}</Paragraph>
+        <Paragraph>
+          See
+          {' '}
+          <a href={data.repoURL} rel="noopener noreferrer" target="_blank">{data.repoURL}</a>
+          {' '}
+          for more information.
+        </Paragraph>
+      </ul>
     </div>
     <div>
-      <SectionTitle>Website Information</SectionTitle>
-      <Paragraph>{data.description}</Paragraph>
-      <Paragraph>
-        See
-        {' '}
-        <a href={data.repoURL} rel="noopener noreferrer" target="_blank">{data.repoURL}</a>
-        {' '}
-        for more information.
-      </Paragraph>
+      <SectionTitle>About Me</SectionTitle>
+      <Paragraph>{user.basics.summary}</Paragraph>
     </div>
     <div>
       <SectionTitle>Education</SectionTitle>
