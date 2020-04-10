@@ -11,7 +11,7 @@ const Me = ({ user }) => (
     <div>
       <SectionTitle>Website Information</SectionTitle>
       <ul>
-        <Paragraph><img src={websiteInfo.buildStatusURL} /></Paragraph>
+        <Paragraph><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></Paragraph>
         <Paragraph>{websiteInfo.description}</Paragraph>
         <Paragraph>
           {' '}
