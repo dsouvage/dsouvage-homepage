@@ -29,6 +29,7 @@ const Me = ({ user }) => (
                 {education.start.year}
                 {' '}
                 to
+                {' '}
                 {education.end.year}
               </span>
             </div>
