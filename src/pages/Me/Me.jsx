@@ -11,7 +11,7 @@ const Me = ({ user }) => (
     <div>
       <SectionTitle>Website Information</SectionTitle>
       <ul>
-        <Paragraph><a href="https://travis-ci.org/firefelix/dsouvage-homepage"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a></Paragraph>
+        <Paragraph><a href="https://travis-ci.org/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a></Paragraph>
         <Paragraph>{websiteInfo.description}</Paragraph>
         <Paragraph>
           {' '}
