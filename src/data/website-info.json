@@ -1,4 +1,5 @@
 {
     "description":"This project uses React, gitconnected, ESLint, Sass, npm, gh-pages and Enzyme. Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, and deploying is handled through gh-pages.",
-    "repoURL":"https://github.com/firefelix/dsouvage-homepage"
+    "repoURL":"https://github.com/firefelix/dsouvage-homepage",
+    "buildStatusURL":"https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master"
 }

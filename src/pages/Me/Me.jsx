@@ -11,10 +11,9 @@ const Me = ({ user }) => (
     <div>
       <SectionTitle>Website Information</SectionTitle>
       <ul>
+        <Paragraph><img src={websiteInfo.buildStatusURL} /></Paragraph>
         <Paragraph>{websiteInfo.description}</Paragraph>
         <Paragraph>
-          This is a test
-          See
           {' '}
           <a href={websiteInfo.repoURL} rel="noopener noreferrer" target="_blank">{websiteInfo.repoURL}</a>
           {' '}
