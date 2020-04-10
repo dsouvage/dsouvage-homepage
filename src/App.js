@@ -9,7 +9,6 @@ function App() {
 			setUser(user);
 		});
 	}, []);
-
 	if (!user) {
 		return <div />;
 	}
