@@ -1,7 +1,8 @@
 import React from 'react';
-import MobileNav from './MobileNav';
 import { shallow } from 'enzyme';
+import Layout from './Layout';
 
+// eslint-disable-next-line no-undef
 it('renders without crashing', () => {
-	shallow(<MobileNav />);
+  shallow(<Layout />);
 });

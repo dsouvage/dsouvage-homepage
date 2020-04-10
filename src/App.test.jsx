@@ -1,7 +1,8 @@
 import React from 'react';
-import Layout from './Layout';
 import { shallow } from 'enzyme';
+import App from './App';
 
+// eslint-disable-next-line no-undef
 it('renders without crashing', () => {
-	shallow(<Layout />);
+  shallow(<App />);
 });

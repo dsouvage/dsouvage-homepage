@@ -1,3 +1,4 @@
+/* eslint-disable no-tabs */
 import styled from 'styled-components';
 import { white } from '@carbon/colors';
 
