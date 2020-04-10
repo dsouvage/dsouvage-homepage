@@ -1,3 +1,5 @@
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Router, Route } from 'react-router';
 import { createMemoryHistory } from 'history';

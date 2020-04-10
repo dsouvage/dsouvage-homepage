@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { shallow } from 'enzyme';
-import Me from './Me';
+import Projects from './Projects';
 
 async function getGitProfile() {
   const response = await fetch('https://gitconnected.com/v1/portfolio/firefelix');
@@ -13,5 +14,5 @@ async function getGitProfile() {
 
 // eslint-disable-next-line no-undef
 it('renders without crashing', () => {
-  getGitProfile().then((data) => shallow(<Me user={data} />));
+  getGitProfile().then((data) => shallow(<Projects user={data} />));
 });
