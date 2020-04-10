@@ -15,7 +15,6 @@ Use the package manager [npm](https://www.npmjs.com/) to install/deploy.
 
 ```bash
 npm install
-cd
 ```
 
 ## Usage
@@ -40,5 +39,5 @@ yarn deploy
 ```
 
 ## Credit
-Heavily inspired by: 
+Based off: 
 [Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d)
