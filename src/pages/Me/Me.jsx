@@ -4,12 +4,24 @@ import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph } from '../../styles';
 import { WorkItem, WorkTitle, JobTitle } from '../Work/styles';
 import { EducationItem, Institution, Degree } from '../Education/styles';
+import data from '../../data/website-info.json';
 
 const Me = ({ user }) => (
   <Layout user={user}>
     <div>
       <SectionTitle>About Me</SectionTitle>
       <Paragraph>{user.basics.summary}</Paragraph>
+    </div>
+    <div>
+      <SectionTitle>Website Information</SectionTitle>
+      <Paragraph>{data.description}</Paragraph>
+      <Paragraph>
+        See
+        {' '}
+        <a href={data.repoURL} rel="noopener noreferrer" target="_blank">{data.repoURL}</a>
+        {' '}
+        for more information.
+      </Paragraph>
     </div>
     <div>
       <SectionTitle>Education</SectionTitle>
@@ -91,6 +103,7 @@ const Me = ({ user }) => (
                 {work.end.year}
               </span>
             </div>
+            <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
             <Paragraph>{work.summary}</Paragraph>
             {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
           </WorkItem>
