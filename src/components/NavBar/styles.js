@@ -9,6 +9,8 @@ export const NavBarStyle = styled.div`
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  opacity: 0.8;
+  z-index: 9999;
 }
 
 /* Links inside the navbar */
