@@ -2,7 +2,7 @@ import React from 'react';
 // import Sidebar from '../Sidebar';
 // import { Link, animateScroll as scroll } from 'react-scroll';
 import UserHeader from '../UserHeader';
-import MobileNav from '../MobileNav';
+// import MobileNav from '../MobileNav';
 
 import { StyledContent } from './styles';
 
@@ -19,7 +19,6 @@ const Layout = ({ user, children }) => (
     <div className="wrapper">
       <BackgroundComponentStar />
     </div>
-    <MobileNav />
     <StyledContent>
       <div id="aboutme" />
       <UserHeader user={user} />
