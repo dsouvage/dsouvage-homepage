@@ -19,6 +19,7 @@ export const NavBarStyle = styled.div`
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 /* Change background on mouse-over */
