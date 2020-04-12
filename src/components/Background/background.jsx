@@ -15,7 +15,7 @@ const BackgroundComponentStar = () => (
         </span>
         <br />
         <span>
-          STUDENT || SOFTWARE ENGINEER
+          STUDENT &amp;&amp; SOFTWARE ENGINEER
         </span>
       </div>
     </div>
