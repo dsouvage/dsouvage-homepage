@@ -30,12 +30,15 @@ const Me = ({ user }) => (
     </div>
     <div>
       <RegularBlock>
-        <SectionTitle>About Me</SectionTitle>
+        <SectionTitle>
+          About Me
+        </SectionTitle>
         <Paragraph>{user.basics.summary}</Paragraph>
       </RegularBlock>
     </div>
     <div>
       <DarkGrayBlock>
+        <div id="Education" />
         <SectionTitle>Education</SectionTitle>
         <ul>
           {user.education.map((education, i) => (
@@ -65,6 +68,7 @@ const Me = ({ user }) => (
     </div>
     <div>
       <RegularBlock>
+        <div id="Experience" />
         <SectionTitle>Work</SectionTitle>
         <ul>
           {user.work.map((work, i) => (
@@ -97,6 +101,7 @@ const Me = ({ user }) => (
     </div>
     <div>
       <DarkGrayBlock>
+        <div id="Involvement" />
         <SectionTitle>Involvement</SectionTitle>
         <ul>
           {user.volunteer.map((work, i) => (

@@ -18,6 +18,7 @@ const Layout = ({ user, children }) => (
     </div>
     <MobileNav />
     <StyledContent>
+      <div id="aboutme" />
       <UserHeader user={user} />
       <div>{children}</div>
     </StyledContent>
