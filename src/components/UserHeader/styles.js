@@ -8,6 +8,7 @@ export const HeaderContainer = styled.div`
 		display: ${({ isHome }) => (!isHome ? 'none' : 'flex')};
 		flex-direction: column;
 	}
+	padding: 10px;
 `;
 
 export const Header = styled.div`
