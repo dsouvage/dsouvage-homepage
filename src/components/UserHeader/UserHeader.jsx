@@ -7,6 +7,8 @@ import {
   HeaderContainer, Header, Image, ViewResumeLink,
 } from './styles';
 
+import websiteInfo from '../../data/website-info.json';
+
 const UserHeader = ({ user }) => {
   const location = useLocation();
 
@@ -32,7 +34,7 @@ const UserHeader = ({ user }) => {
       </Header>
       <div>
         <ViewResumeLink
-          href="https://www.cosc.brocku.ca/~ds16bz/resume/Dylan_Souvage_Resume.pdf"
+          href={websiteInfo.resumeLink}
           target="_blank"
           rel="noopener noreferrer"
         >
