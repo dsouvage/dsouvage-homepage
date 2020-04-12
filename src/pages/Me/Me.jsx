@@ -1,116 +1,131 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph } from '../../styles';
+import {
+  SectionTitle, Paragraph, DarkGrayBlock, RegularBlock,
+} from '../../styles';
 import { WorkItem, WorkTitle, JobTitle } from '../Work/styles';
-import { EducationItem, Institution, Degree } from '../Education/styles';
+import {
+  EducationItem, Institution, Degree,
+} from '../Education/styles';
 import websiteInfo from '../../data/website-info.json';
+
 
 const Me = ({ user }) => (
   <Layout user={user}>
     <div>
-      <SectionTitle>Website Information</SectionTitle>
-      <ul>
-        <Paragraph><a href="https://travis-ci.org/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a></Paragraph>
-        <Paragraph>{websiteInfo.description}</Paragraph>
-        <Paragraph>
-          {' '}
-          <a href={websiteInfo.repoURL} rel="noopener noreferrer" target="_blank">{websiteInfo.repoURL}</a>
-          {' '}
-          for more information.
-        </Paragraph>
-      </ul>
+      <DarkGrayBlock>
+        <SectionTitle>Website Information</SectionTitle>
+        <ul>
+          <Paragraph><a href="https://travis-ci.org/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a></Paragraph>
+          <Paragraph>{websiteInfo.description}</Paragraph>
+          <Paragraph>
+            {' '}
+            <a href={websiteInfo.repoURL} rel="noopener noreferrer" target="_blank">{websiteInfo.repoURL}</a>
+            {' '}
+            for more information.
+          </Paragraph>
+        </ul>
+      </DarkGrayBlock>
     </div>
     <div>
-      <SectionTitle>About Me</SectionTitle>
-      <Paragraph>{user.basics.summary}</Paragraph>
+      <RegularBlock>
+        <SectionTitle>About Me</SectionTitle>
+        <Paragraph>{user.basics.summary}</Paragraph>
+      </RegularBlock>
     </div>
     <div>
-      <SectionTitle>Education</SectionTitle>
-      <ul>
-        {user.education.map((education, i) => (
-          <EducationItem key={i}>
-            <Institution>{education.position}</Institution>
-            <div>
-              <Degree>
-                {education.studyType}
-                ,
-                {education.area}
-              </Degree>
-              {' '}
-              <span> &sdot; </span>
-              <span>
-                {education.start.year}
+      <DarkGrayBlock>
+        <SectionTitle>Education</SectionTitle>
+        <ul>
+          {user.education.map((education, i) => (
+            <EducationItem key={i}>
+              <Institution>{education.institution}</Institution>
+              <div>
+                <Degree>
+                  {education.studyType}
+                  ,
+                  {education.area}
+                </Degree>
                 {' '}
-                to
-                {' '}
-                {education.end.year}
-              </span>
-            </div>
-            <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
-          </EducationItem>
-        ))}
-      </ul>
+                <span> &sdot; </span>
+                <span>
+                  {education.start.year}
+                  {' '}
+                  to
+                  {' '}
+                  {education.end.year}
+                </span>
+              </div>
+              <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
+            </EducationItem>
+          ))}
+        </ul>
+      </DarkGrayBlock>
     </div>
     <div>
-      <SectionTitle>Work</SectionTitle>
-      <ul>
-        {user.work.map((work, i) => (
-          <WorkItem key={i}>
-            <WorkTitle>{work.position}</WorkTitle>
-            <div>
-              <JobTitle>{work.company}</JobTitle>
-              {' '}
-              <span>{work.location}</span>
-              <span> &sdot; </span>
-              <span>
-                {work.start.month}
-                /
-                {work.start.year}
+      <RegularBlock>
+        <SectionTitle>Work</SectionTitle>
+        <ul>
+          {user.work.map((work, i) => (
+            <WorkItem key={i}>
+              <WorkTitle>{work.position}</WorkTitle>
+              <div>
+                <JobTitle>{work.company}</JobTitle>
                 {' '}
-                to
-                {' '}
-                {work.end.month}
-                /
-                {work.end.year}
-              </span>
-            </div>
-            <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
-            <Paragraph>{work.summary}</Paragraph>
-            {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
-          </WorkItem>
-        ))}
-      </ul>
+                <span>{work.location}</span>
+                <span> &sdot; </span>
+                <span>
+                  {work.start.month}
+                  /
+                  {work.start.year}
+                  {' '}
+                  to
+                  {' '}
+                  {work.end.month}
+                  /
+                  {work.end.year}
+                </span>
+              </div>
+              <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
+              <Paragraph>{work.summary}</Paragraph>
+              {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
+            </WorkItem>
+          ))}
+        </ul>
+      </RegularBlock>
     </div>
     <div>
-      <SectionTitle>Involvement</SectionTitle>
-      <ul>
-        {user.volunteer.map((work, i) => (
-          <WorkItem key={i}>
-            <WorkTitle>{work.position}</WorkTitle>
-            <div>
-              <JobTitle>{work.organization}</JobTitle>
-              {' '}
-              <span>{work.location}</span>
-              <span> &sdot; </span>
-              <span>
-                {work.start.month}
-                /
-                {work.start.year}
+      <DarkGrayBlock>
+        <SectionTitle>Involvement</SectionTitle>
+        <ul>
+          {user.volunteer.map((work, i) => (
+            <WorkItem key={i}>
+              <WorkTitle>{work.position}</WorkTitle>
+              <div>
+                <JobTitle>{work.organization}</JobTitle>
                 {' '}
-                to
-                {' '}
-                {work.end.month}
-                /
-                {work.end.year}
-              </span>
-            </div>
-            <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
-            <Paragraph>{work.summary}</Paragraph>
-            {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
-          </WorkItem>
-        ))}
-      </ul>
+                <span>{work.location}</span>
+                <span> &sdot; </span>
+                <span>
+                  {work.start.month}
+                  /
+                  {work.start.year}
+                  {' '}
+                  to
+                  {' '}
+                  {work.end.month}
+                  /
+                  {work.end.year}
+                </span>
+              </div>
+              <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
+              <Paragraph>{work.summary}</Paragraph>
+              {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
+            </WorkItem>
+          ))}
+        </ul>
+      </DarkGrayBlock>
     </div>
   </Layout>
 );
