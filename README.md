@@ -45,9 +45,17 @@ npm run test
 ## Deploying
 
 This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and continous deployment via [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes all linting and testing.
+
+Before submitting PR:
+
+```bash
+yarn install
+```
+
 ```bash
 npm run lint
 ```
+
 ```bash
 npm run test
 ```
