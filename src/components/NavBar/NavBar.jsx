@@ -6,6 +6,7 @@ import websiteInfo from '../../data/website-info.json';
 const NavBar = () => (
   <NavBarStyle>
     <div className="navbar">
+      <a href="#home">Home</a>
       <a href="#aboutme">About Me</a>
       <a href="#Education">Education</a>
       <a href="#Experience">Experience</a>

@@ -17,7 +17,13 @@ const Me = ({ user }) => (
       <DarkGrayBlock>
         <SectionTitle>Website Information</SectionTitle>
         <ul>
-          <Paragraph><a href="https://travis-ci.org/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a></Paragraph>
+          <Paragraph>
+            <a href="https://travis-ci.org/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" /></a>
+            {' '}
+            <a href="https://github.com/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src="https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage" alt="Top Language" /></a>
+            {' '}
+            <a href="https://github.com/firefelix/dsouvage-homepage" rel="noopener noreferrer" target="_blank"><img src="https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage" alt="Latest Commit" /></a>
+          </Paragraph>
           <Paragraph>{websiteInfo.description}</Paragraph>
           <Paragraph>
             {' '}

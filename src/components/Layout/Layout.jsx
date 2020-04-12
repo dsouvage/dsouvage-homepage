@@ -15,6 +15,7 @@ import NavBar from '../NavBar/NavBar';
 const Layout = ({ user, children }) => (
   <>
     <NavBar />
+    <div id="home" />
     <div className="wrapper">
       <BackgroundComponentStar />
     </div>
