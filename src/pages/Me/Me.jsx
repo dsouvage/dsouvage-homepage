@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Layout from '../../components/Layout';
@@ -26,10 +27,12 @@ const Me = ({ user }) => (
           </Paragraph>
           <Paragraph>{websiteInfo.description}</Paragraph>
           <Paragraph>
-            {' '}
+            <br />
+            Do you have any suggestions or maybe just want to browse the code? (Feel free to make an issue on the repo or contact me!)
+          </Paragraph>
+          <Paragraph>
+            <br />
             <a href={websiteInfo.repoURL} rel="noopener noreferrer" target="_blank">{websiteInfo.repoURL}</a>
-            {' '}
-            for more information.
           </Paragraph>
         </ul>
       </DarkGrayBlock>

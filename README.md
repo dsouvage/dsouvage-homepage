@@ -8,6 +8,8 @@
 
 This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan-souvage/), built using React and deployed to GitHub pages. 
 
+Do you have any suggestions? Feel free to contact me via LinkedIn or please make an issue!
+
 ## Information
 
 This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages), [TravisCI](https://travis-ci.org/)  and [Enzyme](https://enzymejs.github.io/enzyme/).
@@ -66,12 +68,11 @@ npm run test
 
 (If you want to build something similar, without simply cloning the repo and changing values (feel free to do that btw))
 
-
-[Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d)
-
 [Deploying React app to GitHub Pages via Travis CI](https://medium.com/@rossanodan/deploying-a-react-application-on-github-pages-via-travis-ci-ba0fc2c4c74)
 
 [Parallax Star background in CSS - Saransh Sinha](https://codepen.io/saransh/pen/BKJun)
+
+[Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d)
 
 [Navbar](https://www.w3schools.com/css/css_navbar.asp)
 
