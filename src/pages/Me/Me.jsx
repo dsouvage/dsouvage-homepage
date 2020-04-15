@@ -101,7 +101,11 @@ const Me = ({ user }) => (
                 </span>
               </div>
               <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
-              <Paragraph>{work.summary}</Paragraph>
+              <Paragraph>
+                Summary:
+                {' '}
+                {work.summary}
+              </Paragraph>
               {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
             </WorkItem>
           ))}
@@ -134,7 +138,11 @@ const Me = ({ user }) => (
                 </span>
               </div>
               <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
-              <Paragraph>{work.summary}</Paragraph>
+              <Paragraph>
+                Summary:
+                {' '}
+                {work.summary}
+              </Paragraph>
               {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
             </WorkItem>
           ))}
