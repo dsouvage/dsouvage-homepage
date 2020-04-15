@@ -11,7 +11,7 @@ import {
 } from '../Education/styles';
 import websiteInfo from '../../data/website-info.json';
 
-
+// TODO move these into seperate components for the layout to build, rather than store all within Me.jsx
 const Me = ({ user }) => (
   <Layout user={user}>
     <div>
