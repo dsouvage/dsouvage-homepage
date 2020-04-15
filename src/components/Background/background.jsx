@@ -1,5 +1,6 @@
 import React from 'react';
-import { StarBackgroundTwo as StarBackground} from './styles';
+import Avatar from '../../data/SoloPic.jpg';
+import { StarBackgroundTwo as StarBackground } from './styles';
 
 
 const BackgroundComponentStar = () => (
@@ -10,6 +11,11 @@ const BackgroundComponentStar = () => (
       <div id="stars2" />
       <div id="stars3" />
       <div id="title">
+        <span>
+          <img src={Avatar} alt="Avatar" className="avatar" />
+        </span>
+        <br />
+        <br />
         <span>
           DYLAN SOUVAGE
         </span>

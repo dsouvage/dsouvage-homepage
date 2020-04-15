@@ -4,11 +4,16 @@ import styled from 'styled-components';
 export const StarBackground = styled.div`
 /*****************STARTS TOP BACKGROUND SECTION***************/
 
+
+
+
 .background {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     height: 100vh;
 }
+
+
 
 #stars {
     width: 1px;
@@ -76,6 +81,15 @@ export const StarBackground = styled.div`
 
 
 export const StarBackgroundTwo = styled.div`
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:1px solid white;
+  box-shadow: 0px 0px 5px #fff;
+}
 
 .background {
     overflow: hidden;
@@ -161,6 +175,26 @@ html {
     -webkit-text-fill-color: transparent;
   }
   
+  #titletwo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+  }
+  #titletwo span {
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   @keyframes animStar {
     from {
       transform: translateY(0px);
