@@ -70,6 +70,7 @@ const Me = ({ user }) => (
                 </span>
               </div>
               <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
+              <Paragraph>{education.activities.replace('\n\n', '\n')}</Paragraph>
             </EducationItem>
           ))}
         </ul>
