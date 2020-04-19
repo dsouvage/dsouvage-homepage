@@ -1,8 +1,8 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Me from './Me';
-import Projects from './Projects';
+// import Projects from './Projects';
 
 const Pages = ({ user }) => (
   <Router>
@@ -13,11 +13,15 @@ const Pages = ({ user }) => (
       <Route exact path="/dsouvage-homepage">
         <Me user={user} />
       </Route>
-      <Route path="/projects">
+      {/* <Route path="/projects">
         <Projects user={user} />
-      </Route>
+      </Route> */}
     </Switch>
   </Router>
 );
+
+Pages.propTypes = {
+  user: PropTypes.any.isRequired,
+};
 
 export default Pages;

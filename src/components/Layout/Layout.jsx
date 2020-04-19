@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // import Sidebar from '../Sidebar';
 // import { Link, animateScroll as scroll } from 'react-scroll';
 import UserHeader from '../UserHeader';
@@ -10,8 +11,6 @@ import BackgroundComponentStar from '../Background/background';
 
 import NavBar from '../NavBar/NavBar';
 
-
-// eslint-disable-next-line react/prop-types
 const Layout = ({ user, children }) => (
   <>
     <NavBar />
@@ -26,5 +25,14 @@ const Layout = ({ user, children }) => (
     </StyledContent>
   </>
 );
+
+Layout.propTypes = {
+  children: PropTypes.any,
+  user: PropTypes.any,
+};
+Layout.defaultProps = {
+  children: PropTypes.any,
+  user: PropTypes.any,
+};
 
 export default Layout;

@@ -5,8 +5,8 @@ function App() {
   const [user, setUser] = useState(null);
   useEffect(() => {
     // grab resume items from gitconnected
-    fetch('https://gitconnected.com/v1/portfolio/firefelix').then((res) => res.json()).then((user) => {
-      setUser(user);
+    fetch('https://gitconnected.com/v1/portfolio/firefelix').then((res) => res.json()).then((updateUser) => {
+      setUser(updateUser);
     });
   }, []);
   if (!user) {
