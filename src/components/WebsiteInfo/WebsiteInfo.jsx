@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import websiteInfo from '../../data/website-info.json';
 
-
 // TODO move hardcoded content to websiteInfo json object
 const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
   <div>
