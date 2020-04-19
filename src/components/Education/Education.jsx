@@ -37,9 +37,9 @@ const Education = ({ user, SectionTitle, Paragraph }) => (
 );
 
 Education.propTypes = {
-  Paragraph: PropTypes.element.isRequired,
-  SectionTitle: PropTypes.element.isRequired,
-  user: PropTypes.element.isRequired,
+  Paragraph: PropTypes.object.isRequired,
+  SectionTitle: PropTypes.object.isRequired,
+  user: PropTypes.object.isRequired,
 };
 
 export default Education;

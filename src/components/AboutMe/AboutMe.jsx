@@ -11,9 +11,9 @@ const AboutMe = ({ user, SectionTitle, Paragraph }) => (
 );
 
 AboutMe.propTypes = {
-  Paragraph: PropTypes.element.isRequired,
-  SectionTitle: PropTypes.element.isRequired,
-  user: PropTypes.element.isRequired,
+  Paragraph: PropTypes.object.isRequired,
+  SectionTitle: PropTypes.object.isRequired,
+  user: PropTypes.object.isRequired,
 };
 
 export default AboutMe;

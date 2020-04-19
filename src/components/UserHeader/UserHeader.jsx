@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import { ArrowRight16 } from '@carbon/icons-react';
 
@@ -44,6 +45,11 @@ const UserHeader = ({ user }) => {
       </div>
     </HeaderContainer>
   );
+};
+
+
+UserHeader.propTypes = {
+  user: PropTypes.func.isRequired,
 };
 
 export default UserHeader;

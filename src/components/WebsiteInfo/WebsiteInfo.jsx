@@ -30,8 +30,8 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
 );
 
 WebsiteInfo.propTypes = {
-  Paragraph: PropTypes.element.isRequired,
-  SectionTitle: PropTypes.element.isRequired,
+  Paragraph: PropTypes.object.isRequired,
+  SectionTitle: PropTypes.object.isRequired,
 };
 
 export default WebsiteInfo;

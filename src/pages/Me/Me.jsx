@@ -31,7 +31,7 @@ const Me = ({ user }) => (
 );
 
 Me.propTypes = {
-  user: PropTypes.element.isRequired,
+  user: PropTypes.object.isRequired,
 };
 
 export default Me;

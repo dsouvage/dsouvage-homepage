@@ -8,7 +8,7 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
     <SectionTitle>Involvement</SectionTitle>
     <ul>
       {user.volunteer.map((work) => (
-        <WorkItem>
+        <WorkItem key={Date.now()}>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
             <JobTitle>{work.organization}</JobTitle>
@@ -33,7 +33,7 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
             {' '}
             {work.summary}
           </Paragraph>
-          {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
+          {work.highlights.map((highlight) => <Paragraph key={Date.now()}>{highlight}</Paragraph>)}
         </WorkItem>
       ))}
     </ul>
@@ -41,9 +41,9 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
 );
 
 Involvement.propTypes = {
-  Paragraph: PropTypes.element.isRequired,
-  SectionTitle: PropTypes.element.isRequired,
-  user: PropTypes.element.isRequired,
+  Paragraph: PropTypes.object.isRequired,
+  SectionTitle: PropTypes.object.isRequired,
+  user: PropTypes.object.isRequired,
 };
 
 export default Involvement;
