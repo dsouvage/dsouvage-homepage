@@ -1,10 +1,10 @@
-/* eslint-disable import/prefer-default-export */
 /* eslint-disable react/jsx-filename-extension */
+/* eslint-disable import/prefer-default-export */
 import React from 'react';
 import { Router, Route } from 'react-router';
 import { createMemoryHistory } from 'history';
 import { render } from '@testing-library/react';
-import Sidebar from './Sidebar';
+import UserHeader from '../components/UserHeader/UserHeader';
 
 const history = createMemoryHistory();
 
@@ -17,5 +17,5 @@ export const renderWithRouter = (Component) => render(
 // eslint-disable-next-line no-undef
 it('renders without crashing', () => {
   // eslint-disable-next-line no-unused-vars
-  const test = () => renderWithRouter(<Sidebar />);
+  const test = () => renderWithRouter(<UserHeader />);
 });
