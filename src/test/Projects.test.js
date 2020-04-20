@@ -6,6 +6,4 @@
 // import user from './test-user.json';
 
 // eslint-disable-next-line no-undef
-it.skip('renders without crashing', () => {
-
-});
+it.skip('renders without crashing', () => {});
