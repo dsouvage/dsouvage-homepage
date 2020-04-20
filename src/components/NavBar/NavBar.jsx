@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavBarStyle } from './styles';
-import websiteInfo from '../../data/website-info.json';
+import websiteInfo from '../../../data/website-info.json';
 
 // eslint-disable-next-line react/prop-types
 const NavBar = () => (

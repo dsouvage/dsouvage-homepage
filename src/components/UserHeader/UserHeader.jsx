@@ -5,7 +5,7 @@ import { ArrowRight16 } from '@carbon/icons-react';
 
 import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 
-import websiteInfo from '../../data/website-info.json';
+import websiteInfo from '../../../data/website-info.json';
 
 const UserHeader = ({ user }) => {
   const location = useLocation();
