@@ -1,3 +1,7 @@
+<p align="center">
+    <img alt="Site logo" src="./src/data/bouldersit2.svg" width="500" />
+</p>
+
 # Dylan Souvage Personal Website
 
 [![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master)
@@ -8,13 +12,19 @@ This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan
 
 Do you have any suggestions? Feel free to contact me via LinkedIn or please make an issue!
 
-## Information
+## ⚙ Tech Stack
 
-This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages), [TravisCI](https://travis-ci.org/) and [Enzyme](https://enzymejs.github.io/enzyme/).
+Created with [React](https://reactjs.org/) and [`create-react-app`](https://create-react-app.dev/)  
+Content pulled from [gitconnected](https://gitconnected.com/portfolio-api)  
+Code style enforced with [eslint](https://eslint.org/) and [Prettier](https://prettier.io/)  
+Styled with [styled-components](https://www.styled-components.com) and [Sass](https://sass-lang.com/)  
+Package maintained with [npm](https://www.npmjs.com/)  
+Continuous Integration with [TravisCI](https://travis-ci.org/)  
+Continuous Deployment with [gh-pages](https://github.com/tschaub/gh-pages)  
+Testing done with [Enzyme](https://enzymejs.github.io/enzyme/) [react-script](https://create-react-app.dev/docs/running-tests/)  
+Code coverage with [Coveralls](https://coveralls.io/)
 
-Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, deploying is handled through gh-pages, the code is continuously integrated through TravisCI.
-
-## Installation
+## 🛠 Installation
 
 Clone the repo to local
 
@@ -28,27 +38,15 @@ Use the package manager [npm](https://www.npmjs.com/) to install/deploy.
 npm install
 ```
 
-## Usage
+### Usage
 
 Running on local:
 
 ```bash
-npm start
+npm run start
 ```
 
-Checking ESLint on local:
-
-```bash
-npm run lint
-```
-
-Running tests on local:
-
-```bash
-npm run test
-```
-
-## Deploying
+## 🏎 Deploying
 
 This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and continous deployment via [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes all linting and testing.
 
