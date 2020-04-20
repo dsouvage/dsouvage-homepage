@@ -29,8 +29,8 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "fix-code": "prettier --write ./src/**/*.{js,jsx}",
-    "lint": "eslint --fix ./src/**",
+    "fix-code": "prettier --write ./src/**/*.{js,jsx,css,scss}",
+    "lint": "eslint --fix ./src/**/*.{js,jsx}",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
