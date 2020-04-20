@@ -1,12 +1,14 @@
 <p align="center">
     <img alt="Site logo" src="./src/data/bouldersit2.jpg" width="500" />
 </p>
-
-# Dylan Souvage Personal Website
+<div align="center">
+<h1> Dylan Souvage Personal Website </h1>
 
 [![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master)
 
 [firefelix.github.io/dsouvage-homepage/](https://firefelix.github.io/dsouvage-homepage/)
+
+</div>
 
 This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan-souvage/), built using React and deployed to GitHub pages.
 
