@@ -52,18 +52,10 @@ npm run test
 
 This app is set up with continuous integration via [TravisCI](https://travis-ci.org/) and continous deployment via [gh-pages](https://github.com/tschaub/gh-pages), assuming code passes all linting and testing.
 
-Before submitting PR:
+Before submitting PR (run prettier, eslint and tests):
 
 ```bash
-yarn install
-```
-
-```bash
-npm run lint
-```
-
-```bash
-npm run test
+npm run predeploy
 ```
 
 ## Credit

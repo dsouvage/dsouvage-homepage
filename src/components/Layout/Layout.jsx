@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import Sidebar from '../Sidebar';
 // import { Link, animateScroll as scroll } from 'react-scroll';
-import UserHeader from '../UserHeader';
+import UserHeader from '../UserHeader/UserHeader';
 // import MobileNav from '../MobileNav';
 
 import { StyledContent } from './styles';
