@@ -14,7 +14,7 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
             <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
             <span> &sdot; </span>
             <span>
-              {work.start.month}/{work.start.year} to{work.end.month}/{work.end.year}
+              {work.start.month}/{work.start.year} to {work.end.month}/{work.end.year}
             </span>
           </div>
           <Paragraph>

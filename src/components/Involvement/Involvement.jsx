@@ -12,6 +12,7 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
           <WorkTitle>{work.position}</WorkTitle>
           <div>
             <JobTitle>{work.organization}</JobTitle>
+            {' '}
             <span>{work.location}</span>
             <span> &sdot; </span>
             <span>
