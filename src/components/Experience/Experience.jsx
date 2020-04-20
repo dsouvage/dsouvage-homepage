@@ -8,7 +8,7 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
     <SectionTitle>Work</SectionTitle>
     <ul>
       {user.work.map((work) => (
-        <WorkItem>
+        <WorkItem key={Date.now()}>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
             <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
@@ -27,7 +27,7 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
             {work.summary}
           </Paragraph>
           {work.highlights.map((highlight) => (
-            <Paragraph>{highlight}</Paragraph>
+            <Paragraph key={Date.now()}>{highlight}</Paragraph>
           ))}
         </WorkItem>
       ))}
