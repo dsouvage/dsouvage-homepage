@@ -29,11 +29,8 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "fix-code": "prettier-eslint --write ./src/**/*.{js,jsx}",
-    "fix-styles": "prettier-stylelint --write ./src/**/*.{css,scss}' ",
-    "fix-code-CI": "prettier-eslint --write $PWD/'src/**/*.{js,jsx}'",
-    "fix-styles-CI": "prettier-stylelint --write $PWD/'src/**/*.{css,scss}'",
-    "lint": "eslint ./src/",
+    "fix-code": "prettier --write ./src/**/*.{js,jsx}",
+    "lint": "eslint --fix ./src/**",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

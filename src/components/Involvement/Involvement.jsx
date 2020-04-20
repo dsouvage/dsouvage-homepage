@@ -11,15 +11,11 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
         <WorkItem key={Date.now()}>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
-            <JobTitle>{work.organization}</JobTitle> <span>{work.location}</span>
+            <JobTitle>{work.organization}</JobTitle>
+            <span>{work.location}</span>
             <span> &sdot; </span>
             <span>
-              {work.start.month}
-/{work.start.year}
-{' '}
-to{work.end.month}
-/
-{work.end.year}
+              {work.start.month}/{work.start.year} to {work.end.month}/{work.end.year}
             </span>
           </div>
           <Paragraph>

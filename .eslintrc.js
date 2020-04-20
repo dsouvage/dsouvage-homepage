@@ -18,6 +18,7 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'react/forbid-prop-types': 'off',
+    'react/jsx-one-expression-per-line': 'off',
     'no-console': 'off',
     'prettier/prettier': ['error'],
   },

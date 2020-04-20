@@ -12,8 +12,7 @@ const Education = ({ user, SectionTitle, Paragraph }) => (
           <Institution>{education.institution}</Institution>
           <div>
             <Degree>
-              {education.studyType},
-{education.area}
+              {education.studyType},{education.area}
             </Degree>{' '}
             <span> &sdot; </span>
             <span>

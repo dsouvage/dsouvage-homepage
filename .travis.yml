@@ -5,8 +5,7 @@ cache:
   directories:
     - node_modules
 script:
-  - npm run fix-code-CI
-  - npm run fix-styles-CI
+  - npm run fix-code
   - npm run lint
   - npm test
   - npm run build
