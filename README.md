@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Site logo" src="./src/data/bouldersit2.svg" width="500" />
+    <img alt="Site logo" src="./src/data/bouldersit2.jpg" width="500" />
 </p>
 
 # Dylan Souvage Personal Website
