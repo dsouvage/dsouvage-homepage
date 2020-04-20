@@ -35,6 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --CI=true --watchAll=false",
+    "test:localcoverage": "react-scripts test --coverage --env=jsdom --CI=true --watchAll=false",
     "predeploy": "(npm run fix-code) && (npm run test) && (npm run start)",
     "test:coverage": "react-scripts test --coverage --env=jsdom --CI=true --watchAll=false --coverageReporters=text-lcov | coveralls",
     "eject": "react-scripts eject",
