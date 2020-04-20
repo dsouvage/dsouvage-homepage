@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout';
-import {
-  SectionTitle, Paragraph, DarkGrayBlock, RegularBlock,
-} from '../../styles';
+import { SectionTitle, Paragraph, DarkGrayBlock, RegularBlock } from '../../styles';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Education from '../../components/Education/Education';
 import Experience from '../../components/Experience/Experience';

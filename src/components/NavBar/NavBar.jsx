@@ -11,7 +11,9 @@ const NavBar = () => (
       <a href="#Education">Education</a>
       <a href="#Experience">Experience</a>
       <a href="#Involvement">Involvement</a>
-      <a href={websiteInfo.resumeLink} rel="noopener noreferrer" target="_blank">Resume</a>
+      <a href={websiteInfo.resumeLink} rel="noopener noreferrer" target="_blank">
+        Resume
+      </a>
     </div>
   </NavBarStyle>
 );

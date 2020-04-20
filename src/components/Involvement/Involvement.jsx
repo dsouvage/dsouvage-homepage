@@ -11,29 +11,29 @@ const Involvement = ({ user, SectionTitle, Paragraph }) => (
         <WorkItem key={Date.now()}>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
-            <JobTitle>{work.organization}</JobTitle>
-            {' '}
-            <span>{work.location}</span>
+            <JobTitle>{work.organization}</JobTitle> <span>{work.location}</span>
             <span> &sdot; </span>
             <span>
               {work.start.month}
-              /
-              {work.start.year}
-              {' '}
-              to
-              {' '}
-              {work.end.month}
-              /
-              {work.end.year}
+/{work.start.year}
+{' '}
+to{work.end.month}
+/
+{work.end.year}
             </span>
           </div>
-          <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
+          <Paragraph>
+            <a href={work.website} rel="noopener noreferrer" target="_blank">
+              {work.website}
+            </a>
+          </Paragraph>
           <Paragraph>
             Summary:
-            {' '}
             {work.summary}
           </Paragraph>
-          {work.highlights.map((highlight) => <Paragraph key={Date.now()}>{highlight}</Paragraph>)}
+          {work.highlights.map((highlight) => (
+            <Paragraph key={Date.now()}>{highlight}</Paragraph>
+          ))}
         </WorkItem>
       ))}
     </ul>
