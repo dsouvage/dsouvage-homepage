@@ -1,23 +1,22 @@
 # Dylan Souvage Personal Website
 
-[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage)  ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage)  ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage)
-
-
+[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master)
 
 [firefelix.github.io/dsouvage-homepage/](https://firefelix.github.io/dsouvage-homepage/)
 
-This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan-souvage/), built using React and deployed to GitHub pages. 
+This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan-souvage/), built using React and deployed to GitHub pages.
 
 Do you have any suggestions? Feel free to contact me via LinkedIn or please make an issue!
 
 ## Information
 
-This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages), [TravisCI](https://travis-ci.org/)  and [Enzyme](https://enzymejs.github.io/enzyme/).
+This project uses [React](https://reactjs.org/), [gitconnected](https://gitconnected.com/portfolio-api), [ESLint](https://eslint.org/), [Sass](https://sass-lang.com/), [npm](https://www.npmjs.com/), [gh-pages](https://github.com/tschaub/gh-pages), [TravisCI](https://travis-ci.org/) and [Enzyme](https://enzymejs.github.io/enzyme/).
 
 Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, deploying is handled through gh-pages, the code is continuously integrated through TravisCI.
 
 ## Installation
-Clone the repo to local 
+
+Clone the repo to local
 
 ```bash
 git clone https://github.com/firefelix/dsouvage-homepage.git
@@ -32,16 +31,19 @@ npm install
 ## Usage
 
 Running on local:
+
 ```bash
 npm start
 ```
 
 Checking ESLint on local:
+
 ```bash
 npm run lint
 ```
 
 Running tests on local:
+
 ```bash
 npm run test
 ```
@@ -64,7 +66,7 @@ npm run lint
 npm run test
 ```
 
-## Credit 
+## Credit
 
 (If you want to build something similar, without simply cloning the repo and changing values (feel free to do that btw))
 

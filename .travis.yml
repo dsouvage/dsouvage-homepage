@@ -6,8 +6,7 @@ cache:
     - node_modules
 script:
   - npm run fix-code
-  - npm run lint
-  - npm test
+  - npm run test:coverage
   - npm run build
 deploy:
   provider: pages
