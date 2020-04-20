@@ -22,10 +22,7 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
               {work.website}
             </a>
           </Paragraph>
-          <Paragraph>
-            Summary:
-            {work.summary}
-          </Paragraph>
+          <Paragraph>Summary: {work.summary}</Paragraph>
           {work.highlights.map((highlight) => (
             <Paragraph key={Date.now()}>{highlight}</Paragraph>
           ))}
