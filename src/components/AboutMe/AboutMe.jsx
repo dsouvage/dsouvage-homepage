@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 
 const AboutMe = ({ user, SectionTitle, Paragraph }) => (
   <div>
-    <SectionTitle>
-      About Me
-    </SectionTitle>
+    <SectionTitle>About Me</SectionTitle>
     <Paragraph>{user.basics.summary}</Paragraph>
   </div>
 );

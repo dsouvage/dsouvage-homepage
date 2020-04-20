@@ -8,11 +8,12 @@ import UserHeader from '../components/UserHeader/UserHeader';
 
 const history = createMemoryHistory();
 
-export const renderWithRouter = (Component) => render(
-  <Router history={history}>
-    <Route component={Component} />
-  </Router>,
-);
+export const renderWithRouter = (Component) =>
+  render(
+    <Router history={history}>
+      <Route component={Component} />
+    </Router>
+  );
 
 // eslint-disable-next-line no-undef
 it('renders without crashing', () => {

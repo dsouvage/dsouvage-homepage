@@ -2,10 +2,13 @@ import React from 'react';
 import Avatar from '../../data/SoloPic.jpg';
 import { StarBackgroundTwo as StarBackground } from './styles';
 
-
 const BackgroundComponentStar = () => (
   <StarBackground>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <div className="background">
       <div id="stars" />
       <div id="stars2" />
@@ -16,13 +19,9 @@ const BackgroundComponentStar = () => (
         </span>
         <br />
         <br />
-        <span>
-          DYLAN SOUVAGE
-        </span>
+        <span>DYLAN SOUVAGE</span>
         <br />
-        <span>
-          STUDENT &amp;&amp; SOFTWARE ENGINEER
-        </span>
+        <span>STUDENT &amp;&amp; SOFTWARE ENGINEER</span>
       </div>
     </div>
   </StarBackground>

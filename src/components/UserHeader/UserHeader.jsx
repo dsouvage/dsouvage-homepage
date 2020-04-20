@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import { ArrowRight16 } from '@carbon/icons-react';
 
-import {
-  HeaderContainer, Header, Image, ViewResumeLink,
-} from './styles';
+import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 
 import websiteInfo from '../../data/website-info.json';
 
@@ -24,8 +22,7 @@ const UserHeader = ({ user }) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              @
-              {user.basics.username}
+              @{user.basics.username}
             </a>
           </h4>
           <p>{user.basics.label}</p>
@@ -33,11 +30,7 @@ const UserHeader = ({ user }) => {
         </div>
       </Header>
       <div>
-        <ViewResumeLink
-          href={websiteInfo.resumeLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <ViewResumeLink href={websiteInfo.resumeLink} target="_blank" rel="noopener noreferrer">
           <span>View Résumé</span>
           <ArrowRight16 />
         </ViewResumeLink>
@@ -45,7 +38,6 @@ const UserHeader = ({ user }) => {
     </HeaderContainer>
   );
 };
-
 
 UserHeader.propTypes = {
   user: PropTypes.func.isRequired,

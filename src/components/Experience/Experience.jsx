@@ -11,29 +11,24 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
         <WorkItem>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
-            <JobTitle>{work.company}</JobTitle>
-            {' '}
-            <span>{work.location}</span>
+            <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
             <span> &sdot; </span>
             <span>
-              {work.start.month}
-              /
-              {work.start.year}
-              {' '}
-              to
-              {' '}
-              {work.end.month}
-              /
-              {work.end.year}
+              {work.start.month}/{work.start.year} to{work.end.month}/{work.end.year}
             </span>
           </div>
-          <Paragraph><a href={work.website} rel="noopener noreferrer" target="_blank">{work.website}</a></Paragraph>
+          <Paragraph>
+            <a href={work.website} rel="noopener noreferrer" target="_blank">
+              {work.website}
+            </a>
+          </Paragraph>
           <Paragraph>
             Summary:
-            {' '}
             {work.summary}
           </Paragraph>
-          {work.highlights.map((highlight) => <Paragraph>{highlight}</Paragraph>)}
+          {work.highlights.map((highlight) => (
+            <Paragraph>{highlight}</Paragraph>
+          ))}
         </WorkItem>
       ))}
     </ul>

@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  EducationItem, Institution, Degree,
-} from '../../style/Education/styles';
+import { EducationItem, Institution, Degree } from '../../style/Education/styles';
 
 const Education = ({ user, SectionTitle, Paragraph }) => (
   <div>
@@ -14,17 +12,11 @@ const Education = ({ user, SectionTitle, Paragraph }) => (
           <Institution>{education.institution}</Institution>
           <div>
             <Degree>
-              {education.studyType}
-              ,
-              {education.area}
-            </Degree>
-            {' '}
+              {education.studyType},{education.area}
+            </Degree>{' '}
             <span> &sdot; </span>
             <span>
-              {education.start.year}
-              {' '}
-              to
-              {' '}
+              {education.start.year} to
               {education.end.year}
             </span>
           </div>
