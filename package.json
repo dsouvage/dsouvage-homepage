@@ -29,14 +29,16 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "fix-code": "prettier --write ./src/**/*.{js,jsx,css,scss}",
-    "lint": "eslint --fix ./src/**/*.{js,jsx}",
+    "prettier": "prettier --write ./src/**/*.{js,jsx,css,scss}",
+    "eslint": "eslint --fix ./src/**/*.{js,jsx}",
+    "fix-code": "(npm run prettier) && (npm run eslint)",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --CI=true --watchAll=false",
+    "predeploy": "(npm run fix-code) && (npm run test) && (npm run start)",
     "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "prebuilddeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
