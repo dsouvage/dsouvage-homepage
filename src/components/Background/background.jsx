@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../../../data/SoloPic.jpg';
+import Avatar from '../../data/SoloPic.jpg';
 import { StarBackgroundTwo as StarBackground } from './styles';
 
 const BackgroundComponentStar = () => (
