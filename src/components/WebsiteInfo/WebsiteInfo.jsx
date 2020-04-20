@@ -35,6 +35,16 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             alt="Latest Commit"
           />
         </a>
+        <a
+          href="https://coveralls.io/github/firefelix/dsouvage-homepage"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg"
+            alt="Coverage Status"
+          />
+        </a>
       </Paragraph>
       <Paragraph>{websiteInfo.description}</Paragraph>
       <Paragraph>
