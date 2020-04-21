@@ -2,5 +2,10 @@
   "description": "Website content comes from gitconnected, the style comes from Sass, the content is rendered from React, code standards are maintained with ESlint, Enzyme is used for testing, package manager of choice is npm, continous deployment is handled through gh-pages, the code is continuously integrated through TravisCI.",
   "repoURL": "https://github.com/firefelix/dsouvage-homepage",
   "buildStatusURL": "https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master",
-  "resumeLink": "https://www.cosc.brocku.ca/~ds16bz/resume/Dylan_Souvage_Resume.pdf"
+  "resumeLink": "https://www.cosc.brocku.ca/~ds16bz/resume/Dylan_Souvage_Resume.pdf",
+  "OMERS": "https://i.imgur.com/tbClNiW.gif",
+  "Brock University": "https://i.imgur.com/vw1pLHX.gif",
+  "Brock University Digital Scholarship Lab": "https://i.imgur.com/wZGfBZC.gif",
+  "Interdev Technologies": "https://i.imgur.com/oQgunhT.gif",
+  "Union Communications": "https://i.imgur.com/jcKgqUx.png"
 }

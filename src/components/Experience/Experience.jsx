@@ -2,13 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { WorkItem, WorkTitle, JobTitle } from '../../style/Work/styles';
 
+import urlLoader from '../../data/website-info.json';
+
+function workImage(company) {
+  if (urlLoader[company] !== undefined) {
+    const url = urlLoader[company];
+    return url;
+  }
+  return false;
+}
+
 const Experience = ({ user, SectionTitle, Paragraph }) => (
   <div>
     <div id="Experience" />
-    <SectionTitle>Work</SectionTitle>
+    <SectionTitle>Work Experience</SectionTitle>
     <ul>
       {user.work.map((work) => (
         <WorkItem key={Date.now()}>
+          <img src={workImage(work.company)} alt={work.company} align="right" />
           <WorkTitle>{work.position}</WorkTitle>
           <div>
             <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
