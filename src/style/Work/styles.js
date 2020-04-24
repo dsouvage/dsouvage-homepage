@@ -5,6 +5,7 @@ export const WorkItem = styled.li`
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid ${white};
+  min-height: 200px;
 `;
 
 export const WorkTitle = styled.h4`
