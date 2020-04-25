@@ -19,7 +19,9 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
     <ul>
       {user.work.map((work) => (
         <WorkItem key={Date.now()}>
-          <img src={workImage(work.company)} alt={work.company} align="right" />
+          <a href={work.website} rel="noopener noreferrer" target="_blank">
+            <img src={workImage(work.company)} alt={work.company} align="right" />
+          </a>
           <WorkTitle>{work.position}</WorkTitle>
           <div>
             <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
