@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from '../../components/Layout/Layout';
 import { SectionTitle, Paragraph, DarkGrayBlock, RegularBlock } from '../../styles';
+import Layout from '../../components/Layout/Layout';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Education from '../../components/Education/Education';
 import Experience from '../../components/Experience/Experience';
 import Involvement from '../../components/Involvement/Involvement';
 import WebsiteInfo from '../../components/WebsiteInfo/WebsiteInfo';
+import Gallery from '../../components/Gallery/Gallery';
 
 const Me = ({ user }) => (
   <Layout user={user}>
@@ -25,6 +26,9 @@ const Me = ({ user }) => (
     <DarkGrayBlock>
       <Involvement user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
+    <RegularBlock>
+      <Gallery />
+    </RegularBlock>
   </Layout>
 );
 
