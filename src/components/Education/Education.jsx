@@ -8,7 +8,7 @@ const Education = ({ user, SectionTitle, Paragraph }) => (
     <SectionTitle>Education</SectionTitle>
     <ul>
       {user.education.map((education) => (
-        <EducationItem>
+        <EducationItem key={Date.now()}>
           <Institution>{education.institution}</Institution>
           <div>
             <Degree>
