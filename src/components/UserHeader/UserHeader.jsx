@@ -36,7 +36,7 @@ const UserHeader = ({ user }) => (
 );
 
 UserHeader.propTypes = {
-  user: PropTypes.func.isRequired,
+  user: PropTypes.any.isRequired,
 };
 
 export default UserHeader;
