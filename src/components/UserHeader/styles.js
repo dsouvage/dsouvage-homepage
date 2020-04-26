@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   @media (max-width: 640px) {
-    display: ${({ isHome }) => (!isHome ? 'none' : 'flex')};
+    display: none;
     flex-direction: column;
   }
   padding: 10px;

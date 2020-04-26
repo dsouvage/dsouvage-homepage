@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 import { ArrowRight16 } from '@carbon/icons-react';
 
 import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
@@ -8,10 +8,8 @@ import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 import websiteInfo from '../../data/website-info.json';
 
 const UserHeader = ({ user }) => {
-  const location = useLocation();
-
   return (
-    <HeaderContainer isHome={location.pathname === '/'}>
+    <HeaderContainer>
       <Header>
         <Image src={user.basics.picture} />
         <div>

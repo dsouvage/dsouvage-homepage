@@ -5,11 +5,12 @@ import { WorkItem, WorkTitle, JobTitle } from '../../style/Work/styles';
 import urlLoader from '../../data/website-info.json';
 
 function workImage(company) {
-  if (urlLoader[company] !== undefined) {
-    const url = urlLoader[company];
-    return url;
-  }
-  return false;
+  // if (urlLoader[company] !== undefined) {
+  //   const url = urlLoader[company];
+  //   return url;
+  // }
+  // return undefined;
+  return urlLoader[company];
 }
 
 const Experience = ({ user, SectionTitle, Paragraph }) => (

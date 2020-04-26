@@ -4,7 +4,7 @@ import React from 'react';
 import { Router, Route } from 'react-router';
 import { createMemoryHistory } from 'history';
 import { render } from '@testing-library/react';
-import UserHeader from '../components/UserHeader/UserHeader';
+import UserHeader from '../../components/UserHeader/UserHeader';
 
 const history = createMemoryHistory();
 
