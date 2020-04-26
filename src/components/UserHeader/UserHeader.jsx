@@ -7,35 +7,33 @@ import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 
 import websiteInfo from '../../data/website-info.json';
 
-const UserHeader = ({ user }) => {
-  return (
-    <HeaderContainer>
-      <Header>
-        <Image src={user.basics.picture} />
-        <div>
-          <h2>{user.basics.name}</h2>
-          <h4>
-            <a
-              href={`https://gitconnected.com/${user.basics.username}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              @{user.basics.username}
-            </a>
-          </h4>
-          <p>{user.basics.label}</p>
-          <p>{user.basics.headline}</p>
-        </div>
-      </Header>
+const UserHeader = ({ user }) => (
+  <HeaderContainer>
+    <Header>
+      <Image src={user.basics.picture} />
       <div>
-        <ViewResumeLink href={websiteInfo.resumeLink} target="_blank" rel="noopener noreferrer">
-          <span>View Résumé</span>
-          <ArrowRight16 />
-        </ViewResumeLink>
+        <h2>{user.basics.name}</h2>
+        <h4>
+          <a
+            href={`https://gitconnected.com/${user.basics.username}`}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            @{user.basics.username}
+          </a>
+        </h4>
+        <p>{user.basics.label}</p>
+        <p>{user.basics.headline}</p>
       </div>
-    </HeaderContainer>
-  );
-};
+    </Header>
+    <div>
+      <ViewResumeLink href={websiteInfo.resumeLink} target="_blank" rel="noopener noreferrer">
+        <span>View Résumé</span>
+        <ArrowRight16 />
+      </ViewResumeLink>
+    </div>
+  </HeaderContainer>
+);
 
 UserHeader.propTypes = {
   user: PropTypes.func.isRequired,
