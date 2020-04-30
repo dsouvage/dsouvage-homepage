@@ -45,6 +45,7 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             alt="Coverage Status"
           />
         </a>
+        <a href="https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability"><img src="https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability" /></a>
       </Paragraph>
       <Paragraph>{websiteInfo.description}</Paragraph>
       <Paragraph>
