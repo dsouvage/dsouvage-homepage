@@ -55,6 +55,16 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             alt="Maintainability" 
            />
         </a>
+        <a 
+          href="https://github.com/firefelix/dsouvage-homepage/blob/master/LICENSE"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img 
+            src="https://img.shields.io/github/license/firefelix/dsouvage-homepage"
+            alt="License"
+          />
+        </a>
       </Paragraph>
       <Paragraph>{websiteInfo.description}</Paragraph>
       <Paragraph>
