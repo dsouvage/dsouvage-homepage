@@ -27,7 +27,7 @@ Package maintained with [npm](https://www.npmjs.com/)
 Continuous Integration with [TravisCI](https://travis-ci.org/)  
 Continuous Deployment with [gh-pages](https://github.com/tschaub/gh-pages)  
 Testing done with [Enzyme](https://enzymejs.github.io/enzyme/) [react-script](https://create-react-app.dev/docs/running-tests/)  
-Code coverage with [Coveralls](https://coveralls.io/)
+Code coverage with [Coveralls](https://coveralls.io/)  
 Maintainability of code with [Code Climate](https://codeclimate.com/)
 
 ## 🛠 Installation
