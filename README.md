@@ -15,6 +15,8 @@
 
 This is a personal webpage for [Dylan Souvage](https://www.linkedin.com/in/dylan-souvage/), built using React and deployed to GitHub pages.
 
+Eventually, with current ongoing development actually in the process, this is intended to become a free npm package that can be used as a generic template for student portfolios/projects for anyone to use. Let me know if you want to collaborate.
+
 Do you have any suggestions? Feel free to contact me via LinkedIn or please make an issue!
 
 ## ⚙ Tech Stack
