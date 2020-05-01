@@ -4,7 +4,10 @@
 <div align="center">
 <h1> Dylan Souvage Personal Website </h1>
 
-[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability)](https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability)
+[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability)] (https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability) 
+![GitHub](https://img.shields.io/github/license/firefelix/dsouvage-homepage)
+
+
 
 </div>
 
