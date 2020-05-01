@@ -44,7 +44,7 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             src="https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg"
             alt="Coverage Status"
           />
-        </a>
+        </a>{' '}
         <a 
           href="https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             src="https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability" 
             alt="Maintainability" 
            />
-        </a>
+        </a>{' '}
         <a 
           href="https://github.com/firefelix/dsouvage-homepage/blob/master/LICENSE"
           rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
             src="https://img.shields.io/github/license/firefelix/dsouvage-homepage"
             alt="License"
           />
-        </a>
+        </a>{' '}
       </Paragraph>
       <Paragraph>{websiteInfo.description}</Paragraph>
       <Paragraph>

@@ -1,13 +1,15 @@
+
 <p align="center">
     <img alt="Site logo" src="./src/data/bouldersit2.jpg" width="500" />
 </p>
 <div align="center">
 <h1> Dylan Souvage Personal Website </h1>
 
-[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability)] (https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability) 
-![GitHub](https://img.shields.io/github/license/firefelix/dsouvage-homepage)
+[![Build Status](https://travis-ci.org/firefelix/dsouvage-homepage.svg?branch=master)](https://travis-ci.org/firefelix/dsouvage-homepage) ![Language](https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage) ![Latest Commit](https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage) [![Coverage Status](https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg?branch=master)](https://coveralls.io/github/firefelix/dsouvage-homepage?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability)](https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability)
+[![License](https://img.shields.io/github/license/firefelix/dsouvage-homepage)
+](https://github.com/firefelix/dsouvage-homepage/blob/master/LICENSE)
 
-
+<a href="https://firefelix.github.io/dsouvage-homepage">Website Link/Live Demo</a>
 
 </div>
 
@@ -26,6 +28,7 @@ Continuous Integration with [TravisCI](https://travis-ci.org/)
 Continuous Deployment with [gh-pages](https://github.com/tschaub/gh-pages)  
 Testing done with [Enzyme](https://enzymejs.github.io/enzyme/) [react-script](https://create-react-app.dev/docs/running-tests/)  
 Code coverage with [Coveralls](https://coveralls.io/)
+Maintainability of code with [Code Climate](https://codeclimate.com/)
 
 ## 🛠 Installation
 
