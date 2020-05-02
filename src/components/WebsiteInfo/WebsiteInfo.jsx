@@ -1,71 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import websiteInfo from '../../data/website-info.json';
+import Badges from '../Badges/Badges';
 
 // TODO move hardcoded content to websiteInfo json object
 const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
   <div>
     <SectionTitle>Website Information</SectionTitle>
     <ul>
-      <Paragraph>
-        <a
-          href="https://travis-ci.org/firefelix/dsouvage-homepage"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img src={websiteInfo.buildStatusURL} alt="Build Info from Travis CI" />
-        </a>{' '}
-        <a
-          href="https://github.com/firefelix/dsouvage-homepage"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage"
-            alt="Top Language"
-          />
-        </a>{' '}
-        <a
-          href="https://github.com/firefelix/dsouvage-homepage"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage"
-            alt="Latest Commit"
-          />
-        </a>{' '}
-        <a
-          href="https://coveralls.io/github/firefelix/dsouvage-homepage"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://coveralls.io/repos/github/firefelix/dsouvage-homepage/badge.svg"
-            alt="Coverage Status"
-          />
-        </a>{' '}
-        <a 
-          href="https://codeclimate.com/github/firefelix/dsouvage-homepage/maintainability"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img 
-            src="https://api.codeclimate.com/v1/badges/115e839a764da70057db/maintainability" 
-            alt="Maintainability" 
-           />
-        </a>{' '}
-        <a 
-          href="https://github.com/firefelix/dsouvage-homepage/blob/master/LICENSE"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img 
-            src="https://img.shields.io/github/license/firefelix/dsouvage-homepage"
-            alt="License"
-          />
-        </a>{' '}
-      </Paragraph>
+      <Badges Paragraph={Paragraph} />
       <Paragraph>{websiteInfo.description}</Paragraph>
       <Paragraph>
         <br />
