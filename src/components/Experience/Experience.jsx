@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { WorkItem, WorkTitle, JobTitle } from '../../style/Work/styles';
-
+import ListExperience from '../ListExperience/ListExperience';
 import urlLoader from '../../data/website-info.json';
 
 function workImage(company) {
@@ -23,23 +23,12 @@ const Experience = ({ user, SectionTitle, Paragraph }) => (
           <a href={work.website} rel="noopener noreferrer" target="_blank">
             <img src={workImage(work.company)} alt={work.company} align="right" />
           </a>
-          <WorkTitle>{work.position}</WorkTitle>
-          <div>
-            <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
-            <span> &sdot; </span>
-            <span>
-              {work.start.month}/{work.start.year} to {work.end.month}/{work.end.year}
-            </span>
-          </div>
-          <Paragraph>
-            <a href={work.website} rel="noopener noreferrer" target="_blank">
-              {work.website}
-            </a>
-          </Paragraph>
-          <Paragraph>Summary: {work.summary}</Paragraph>
-          {work.highlights.map((highlight) => (
-            <Paragraph key={Date.now()}>{highlight}</Paragraph>
-          ))}
+          <ListExperience
+            work={work}
+            Paragraph={Paragraph}
+            WorkTitle={WorkTitle}
+            JobTitle={JobTitle}
+          />
         </WorkItem>
       ))}
     </ul>
