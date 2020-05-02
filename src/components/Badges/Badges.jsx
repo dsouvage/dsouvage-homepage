@@ -14,8 +14,8 @@ const badgeInfo = [
   },
   {
     HREF: 'https://github.com/firefelix/dsouvage-homepage',
-    IMGURL: 'https://img.shields.io/github/languages/top/firefelix/dsouvage-homepage',
-    ALT: 'Top Language',
+    IMGURL: 'https://img.shields.io/github/last-commit/firefelix/dsouvage-homepage',
+    ALT: 'Latest Commit',
   },
   {
     HREF: 'https://coveralls.io/github/firefelix/dsouvage-homepage',
@@ -37,7 +37,7 @@ const badgeInfo = [
 const Badges = ({ Paragraph }) => (
   <Paragraph>
     {badgeInfo.map((badge) => (
-      <a href={badge.HREF} rel="noopener noreferrer" target="_blank">
+      <a href={badge.HREF} rel="noopener noreferrer" target="_blank" key={Date.now()}>
         <img src={badge.IMGURL} alt={badge.ALT} />
       </a>
     ))}
