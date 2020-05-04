@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { EducationItem, Institution, Degree } from '../../style/Education/styles';
 
 const Education = ({ user, SectionTitle, Paragraph }) => (
-  <div>
+  <>
     <div id="Education" />
     <SectionTitle>Education</SectionTitle>
     <ul>
@@ -24,7 +24,7 @@ const Education = ({ user, SectionTitle, Paragraph }) => (
         </EducationItem>
       ))}
     </ul>
-  </div>
+  </>
 );
 
 Education.propTypes = {
