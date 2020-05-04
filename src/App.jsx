@@ -17,6 +17,7 @@ function App() {
     /* istanbul ignore next */
     getResume(setUser);
   }, []);
+  /* istanbul ignore next */
   if (!user) {
     return <div />;
   }
