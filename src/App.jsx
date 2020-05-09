@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Pages from './pages';
 
+const portfolioURL = 'https://gitconnected.com/v1/portfolio/firefelix';
+
 /* istanbul ignore next */
 async function getResume(setUser) {
-  const res = await fetch('https://gitconnected.com/v1/portfolio/firefelix');
+  const res = await fetch(portfolioURL);
   const data = await res.json();
   setUser(data);
 }
