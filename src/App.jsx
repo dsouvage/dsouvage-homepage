@@ -2,12 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Pages from './pages';
 
 /* istanbul ignore next */
-function getResume(setUser) {
-  fetch('https://gitconnected.com/v1/portfolio/firefelix')
-    .then((res) => res.json())
-    .then((updateUser) => {
-      setUser(updateUser);
-    });
+async function getResume(setUser) {
+  const res = await fetch('https://gitconnected.com/v1/portfolio/firefelix');
+  const data = await res.json();
+  setUser(data);
 }
 
 function App() {
