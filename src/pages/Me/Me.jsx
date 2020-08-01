@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { SectionTitle, Paragraph, DarkGrayBlock, RegularBlock } from '../../styles';
 import Layout from '../../components/Layout/Layout';
 import AboutMe from '../../components/AboutMe/AboutMe';
+import Timeline from '../../components/Timeline/Timeline';
 import Education from '../../components/Education/Education';
 import Experience from '../../components/Experience/Experience';
 import Involvement from '../../components/Involvement/Involvement';
@@ -18,17 +19,20 @@ const Me = ({ user }) => (
       <AboutMe user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </RegularBlock>
     <DarkGrayBlock>
-      <Education user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
+      <Timeline SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
     <RegularBlock>
-      <Experience user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
+      <Education user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </RegularBlock>
     <DarkGrayBlock>
-      <Involvement user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
+      <Experience user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
     <RegularBlock>
-      <Gallery />
+      <Involvement user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </RegularBlock>
+    <DarkGrayBlock>
+      <Gallery />
+    </DarkGrayBlock>
   </Layout>
 );
 
