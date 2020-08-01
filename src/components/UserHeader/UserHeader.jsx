@@ -5,8 +5,6 @@ import { ArrowRight16 } from '@carbon/icons-react';
 
 import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
 
-import websiteInfo from '../../data/website-info.json';
-
 const UserHeader = ({ user }) => (
   <HeaderContainer>
     <Header>
@@ -27,7 +25,7 @@ const UserHeader = ({ user }) => (
       </div>
     </Header>
     <div>
-      <ViewResumeLink href={websiteInfo.resumeLink} target="_blank" rel="noopener noreferrer">
+      <ViewResumeLink href="#ResumeFrame">
         <span>View Résumé</span>
         <ArrowRight16 />
       </ViewResumeLink>

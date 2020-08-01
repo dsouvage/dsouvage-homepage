@@ -4,9 +4,10 @@ import { SectionTitle, Paragraph, DarkGrayBlock, RegularBlock } from '../../styl
 import Layout from '../../components/Layout/Layout';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Timeline from '../../components/Timeline/Timeline';
-import Education from '../../components/Education/Education';
-import Experience from '../../components/Experience/Experience';
-import Involvement from '../../components/Involvement/Involvement';
+import ResumeFrame from '../../components/Resume/ResumeFrame';
+// import Education from '../../components/Education/Education';
+// import Experience from '../../components/Experience/Experience';
+// import Involvement from '../../components/Involvement/Involvement';
 import WebsiteInfo from '../../components/WebsiteInfo/WebsiteInfo';
 import Gallery from '../../components/Gallery/Gallery';
 
@@ -21,7 +22,7 @@ const Me = ({ user }) => (
     <DarkGrayBlock>
       <Timeline SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
-    <RegularBlock>
+    {/* <RegularBlock>
       <Education user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </RegularBlock>
     <DarkGrayBlock>
@@ -29,9 +30,12 @@ const Me = ({ user }) => (
     </DarkGrayBlock>
     <RegularBlock>
       <Involvement user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
+    </RegularBlock> */}
+    <RegularBlock>
+      <Gallery SectionTitle={SectionTitle} />
     </RegularBlock>
     <DarkGrayBlock>
-      <Gallery />
+      <ResumeFrame SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
   </Layout>
 );
