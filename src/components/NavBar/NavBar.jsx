@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavBarStyle } from './styles';
-import websiteInfo from '../../data/website-info.json';
 
 const NavBar = () => (
   <NavBarStyle>
@@ -8,13 +7,11 @@ const NavBar = () => (
       <a href="#home">Home</a>
       <a href="#aboutme">About Me</a>
       <a href="#Timeline">Timeline</a>
-      <a href="#Education">Education</a>
+      {/* <a href="#Education">Education</a>
       <a href="#Experience">Experience</a>
-      <a href="#Involvement">Involvement</a>
+      <a href="#Involvement">Involvement</a> */}
       <a href="#Gallery">Gallery</a>
-      <a href={websiteInfo.resumeLink} rel="noopener noreferrer" target="_blank">
-        Resume
-      </a>
+      <a href="#ResumeFrame">Resume</a>
     </div>
   </NavBarStyle>
 );
