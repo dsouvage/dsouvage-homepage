@@ -22,7 +22,10 @@ const Me = ({ user }) => (
     <DarkGrayBlock>
       <Timeline SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </DarkGrayBlock>
-    {/* <RegularBlock>
+    {/* 
+    This is currently not being used because we are just using the ResumeFrame PDF display instead, why list things twice?
+    
+     <RegularBlock>
       <Education user={user} SectionTitle={SectionTitle} Paragraph={Paragraph} />
     </RegularBlock>
     <DarkGrayBlock>
