@@ -3,6 +3,10 @@ import Pages from './pages';
 
 const portfolioURL = 'https://gitconnected.com/v1/portfolio/firefelix';
 
+/**
+ * This function takes the resume from gitconnected
+ * @param {*} setUser
+ */
 /* istanbul ignore next */
 async function getResume(setUser) {
   const res = await fetch(portfolioURL);
@@ -10,6 +14,9 @@ async function getResume(setUser) {
   setUser(data);
 }
 
+/**
+ * Runs the main application, uses a hook to populate user from getResume
+ */
 function App() {
   const [user, setUser] = useState(null);
   useEffect(() => {

@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Me from './Me/Me';
 // import Projects from './Projects';
 
+/**
+ * Passes down the user json from gitconnected into the pages we are generating
+ * @param {user} json
+ */
 const Pages = ({ user }) => (
   <Router>
     <Switch>

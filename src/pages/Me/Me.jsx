@@ -11,6 +11,10 @@ import ResumeFrame from '../../components/Resume/ResumeFrame';
 import WebsiteInfo from '../../components/WebsiteInfo/WebsiteInfo';
 import Gallery from '../../components/Gallery/Gallery';
 
+/**
+ * Creates the layout of the main webpage, organizes the components
+ * @param {user} json
+ */
 const Me = ({ user }) => (
   <Layout user={user}>
     <DarkGrayBlock>
