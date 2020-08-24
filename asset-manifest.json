@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dsouvage-homepage/static/css/main.5c5dc240.chunk.css",
+    "main.js": "/dsouvage-homepage/static/js/main.4bdc657c.chunk.js",
+    "main.js.map": "/dsouvage-homepage/static/js/main.4bdc657c.chunk.js.map",
+    "runtime-main.js": "/dsouvage-homepage/static/js/runtime-main.579a63a4.js",
+    "runtime-main.js.map": "/dsouvage-homepage/static/js/runtime-main.579a63a4.js.map",
+    "static/css/2.8730d5d4.chunk.css": "/dsouvage-homepage/static/css/2.8730d5d4.chunk.css",
+    "static/js/2.51fbff7a.chunk.js": "/dsouvage-homepage/static/js/2.51fbff7a.chunk.js",
+    "static/js/2.51fbff7a.chunk.js.map": "/dsouvage-homepage/static/js/2.51fbff7a.chunk.js.map",
+    "index.html": "/dsouvage-homepage/index.html",
+    "precache-manifest.777f467ba0b2d3d1d93c47ffbeeceaf6.js": "/dsouvage-homepage/precache-manifest.777f467ba0b2d3d1d93c47ffbeeceaf6.js",
+    "service-worker.js": "/dsouvage-homepage/service-worker.js",
+    "static/css/2.8730d5d4.chunk.css.map": "/dsouvage-homepage/static/css/2.8730d5d4.chunk.css.map",
+    "static/css/main.5c5dc240.chunk.css.map": "/dsouvage-homepage/static/css/main.5c5dc240.chunk.css.map",
+    "static/js/2.51fbff7a.chunk.js.LICENSE.txt": "/dsouvage-homepage/static/js/2.51fbff7a.chunk.js.LICENSE.txt",
+    "static/media/SoloPic.jpg": "/dsouvage-homepage/static/media/SoloPic.2a7a1179.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.579a63a4.js",
+    "static/css/2.8730d5d4.chunk.css",
+    "static/js/2.51fbff7a.chunk.js",
+    "static/css/main.5c5dc240.chunk.css",
+    "static/js/main.4bdc657c.chunk.js"
+  ]
+}
