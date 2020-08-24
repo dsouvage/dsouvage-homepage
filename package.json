@@ -39,7 +39,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --CI=true --watchAll=false",
     "test:localcoverage": "react-scripts test --coverage --env=jsdom --CI=true --watchAll=false --collectCoverageFrom=!src/style",
-    "predeploy": "(npm run fix-code) && (npm run test) && (yarn install) && (npm run start)",
+    "predeploy": "npm run docs && (npm run fix-code) && (npm run test) && (yarn install) && (npm run start)",
     "test:coverage": "react-scripts test --coverage --env=jsdom --CI=true --watchAll=false --coverageReporters=text-lcov | coveralls",
     "eject": "react-scripts eject",
     "prebuilddeploy": "npm run build",
