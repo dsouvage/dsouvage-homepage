@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
@@ -11,9 +12,15 @@ import TimeLine from '../../components/Timeline/Timeline';
 import Gallery from '../../components/Gallery/Gallery';
 import ResumeFrame from '../../components/Resume/ResumeFrame';
 
+/**
+ * Wrapper for shallow rendering the Me page
+ */
 const wrapper = shallow(<Me user={user} />);
 
-describe('loads every component required', () => {
+/**
+ * Ensures that every component is loaded when Me is rendered in the DOM
+ */
+const runMeTest = describe('loads every component required', () => {
   it('renders without crashing', () => {
     shallow(<Me user={user} />);
   });

@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import websiteInfo from '../../data/website-info.json';
 import Badges from '../Badges/Badges';
 
-// TODO move hardcoded content to websiteInfo json object
+/**
+ * This component creates the Experience section
+ * TODO move hardcoded content to websiteInfo json object
+ * @param {JSON} user The user JSON
+ * @param {Component} SectionTitle The style format to be used for section title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const WebsiteInfo = ({ SectionTitle, Paragraph }) => (
   <div>
     <SectionTitle>Website Information</SectionTitle>

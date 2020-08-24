@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * JSON Object that holds links to each badge to be displayed.
+ * TODO: clean this up and move it somewhere else
+ */
 const badgeInfo = [
   {
     HREF: 'https://travis-ci.org/firefelix/dsouvage-homepage',
@@ -34,6 +38,10 @@ const badgeInfo = [
   },
 ];
 
+/**
+ * This component creates the badge section.
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const Badges = ({ Paragraph }) => (
   <Paragraph>
     {badgeInfo.map((badge) => (

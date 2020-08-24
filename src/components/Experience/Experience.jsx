@@ -4,6 +4,10 @@ import { WorkItem, WorkTitle, JobTitle } from '../../style/Work/styles';
 import ListExperience from '../ListExperience/ListExperience';
 import urlLoader from '../../data/website-info.json';
 
+/**
+ * Returns the URL to the company image from a JSON object.
+ * @param {JSON} company
+ */
 function workImage(company) {
   // if (urlLoader[company] !== undefined) {
   //   const url = urlLoader[company];
@@ -13,6 +17,12 @@ function workImage(company) {
   return urlLoader[company];
 }
 
+/**
+ * This component creates the Experience section
+ * @param {JSON} user The user JSON
+ * @param {Component} SectionTitle The style format to be used for section title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const Experience = ({ user, SectionTitle, Paragraph }) => (
   <div>
     <div id="Experience" />

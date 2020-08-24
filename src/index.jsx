@@ -4,6 +4,9 @@ import './index.scss';
 import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
+/**
+ * Renders the virtual dom
+ */
 export default ReactDOM.render(
   <App />,
   document.getElementById('root') || document.createElement('div')

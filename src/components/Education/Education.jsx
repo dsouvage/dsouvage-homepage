@@ -2,6 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { EducationItem, Institution, Degree } from '../../style/Education/styles';
 
+/**
+ * This component creates the Education section
+ * @param {JSON} user The user JSON
+ * @param {Component} SectionTitle The style format to be used for section title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const Education = ({ user, SectionTitle, Paragraph }) => (
   <>
     <div id="Education" />

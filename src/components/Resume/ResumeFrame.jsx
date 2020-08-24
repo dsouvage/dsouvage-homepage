@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * This component creates the Resume PDF section
+ * @param {Component} SectionTitle The style format to be used for section title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const ResumeFrame = ({ SectionTitle, Paragraph }) => (
   <>
     <div id="ResumeFrame" />
