@@ -1,6 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * This component creates the list experience section
+ * @param {JSON} work The work JSON
+ * @param {Component} WorkTitle The style format to be used for work title
+ * @param {Component} JobTitle The style format to be used for job title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const ListExperience = ({ work, Paragraph, WorkTitle, JobTitle }) => (
   <>
     <WorkTitle>{work.position}</WorkTitle>

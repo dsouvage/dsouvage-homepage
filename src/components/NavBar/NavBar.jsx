@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavBarStyle } from './styles';
 
+/**
+ * This component creates the navbar.
+ */
 const NavBar = () => (
   <NavBarStyle>
     <div className="navbar">

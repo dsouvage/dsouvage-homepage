@@ -6,7 +6,7 @@ import Me from './Me/Me';
 
 /**
  * Passes down the user json from gitconnected into the pages we are generating
- * @param {user} json
+ * @param {user} JSON Expects a specific JSON that gitresume passes
  */
 const Pages = ({ user }) => (
   <Router>

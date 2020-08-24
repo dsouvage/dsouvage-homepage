@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * This component creates the Timeline section using TimeLineJS
+ * @param {Component} SectionTitle The style format to be used for section title
+ * @param {Component} Paragraph The style format to be used for the Paragraph
+ */
 const Timeline = ({ SectionTitle, Paragraph }) => (
   <>
     <div id="Timeline" />

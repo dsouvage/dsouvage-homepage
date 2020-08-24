@@ -5,9 +5,8 @@ const portfolioURL = 'https://gitconnected.com/v1/portfolio/firefelix';
 
 /**
  * This function takes the resume from gitconnected
- * @param {*} setUser
+ * @param {*} setUser Hook that is created in the app function
  */
-/* istanbul ignore next */
 async function getResume(setUser) {
   const res = await fetch(portfolioURL);
   const data = await res.json();

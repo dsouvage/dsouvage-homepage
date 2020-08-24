@@ -2,6 +2,9 @@ import React from 'react';
 import Avatar from '../../data/SoloPic.jpg';
 import { StarBackgroundTwo as StarBackground } from './styles';
 
+/**
+ * This component creates the Parallax Star Format for the landing page
+ */
 const BackgroundComponentStar = () => (
   <StarBackground>
     <link
