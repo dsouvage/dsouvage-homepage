@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/firefelix/dsouvage-homepage)
 ](https://github.com/firefelix/dsouvage-homepage/blob/master/LICENSE)
 
-<a href="https://firefelix.github.io/dsouvage-homepage">Website Link/Live Demo</a>
+<a href="https://dsouvage.github.io/dsouvage-homepage">Website Link/Live Demo</a>
 
 </div>
 
