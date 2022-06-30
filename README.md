@@ -37,7 +37,7 @@ Maintainability of code with [Code Climate](https://codeclimate.com/)
 Clone the repo to local
 
 ```bash
-git clone https://github.com/firefelix/dsouvage-homepage.git
+git clone https://github.com/dsouvage/dsouvage-homepage.git
 ```
 
 Use the package manager [npm](https://www.npmjs.com/) to install/deploy.
